@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "neonlyrics",
+  "version": "2.1.0+mc26.1.2",
+  "name": "Lyrics Cord",
+  "description": "Spotify-Lyrics in 3D im Himmel, 15 Himmel mit Wetter, Leiste oben und Glas-Hotbar. Client-only.",
+  "authors": [
+    "polishtraps85"
+  ],
+  "license": "MIT",
+  "icon": "assets/neonlyrics/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.neonlyrics.NeonLyrics"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "accessWidener": "neonlyrics.accesswidener",
+  "mixins": [
+    "neonlyrics.mixins.json"
+  ]
+}
