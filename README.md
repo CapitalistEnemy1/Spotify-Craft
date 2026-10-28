@@ -1,4 +1,5 @@
 The Propaganda That You Hear From LyricCord Discord Server Is To Scare You This Is 100% Safe
+Due To The MIT License This is 100% Legal To The Devs Of That LyricsCord Mod F*ck You
 # Spotify Craft (Lyrics Cord)
 
 **Live Spotify lyrics inside Minecraft.** Your current song's lyrics float in the sky in 3D, in time with the music, with a now-playing bar, album art and a glass-style hotbar.
