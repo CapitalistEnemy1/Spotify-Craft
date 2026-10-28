@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "neonlyrics:montserrat_bold.ttf",
+      "size": 9.25,
+      "oversample": 10.0,
+      "shift": [
+        0,
+        0
+      ],
+      "skip": ""
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}
