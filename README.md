@@ -1,104 +1,59 @@
-<div align="center">
 
-# Lutt-Net
+# Spotify Craft (Lyrics Cord)
 
-### Multiplayer Modification for *Light Up The Town*
+**Live Spotify lyrics inside Minecraft.** Your current song's lyrics float in the sky in 3D, in time with the music, with a now-playing bar, album art and a glass-style hotbar.
 
-![Version](https://img.shields.io/badge/version-v0.08-blue)
-![Status](https://img.shields.io/badge/status-alpha-orange)
-![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
-![Loader](https://img.shields.io/badge/loader-UE4SS-green)
+This mod used to be paid. It's now **free and open for everyone**.
 
-</div>
+## Features
 
----
+- **3D sky lyrics** that follow the song in real time
+- **Now-playing bar** with cover art, title, artist and a beat-reactive visualiser
+- **15 skies with weather** (Aurora, Nebula, Synthwave, Black hole, Cosmos and more)
+- **Glass hotbar** and custom crosshair
+- **Cosmetics**: hats such as neon headphones, conical hat, crown, halo, pumpkin head, mini Saturn and more
+- **In-game menu** (press `J`) for lyrics size, opacity, glow, font, animation, timing offset, accent colour, performance options and more
+- **Saved lines**: bookmark lyrics you like
+- **Chill / PvP profiles** to switch quickly between a full look and a lighter one
+- Works with **Spotify Free and Premium** (playback controls such as skip/pause need Premium)
+- Lyrics are fetched from [lrclib.net](https://lrclib.net). Your login stays on your PC.
+- **Client-only**: no server install needed
 
-## Table of Contents
+## Default keys
 
-- [Overview](#overview)
-- [Development Team](#development-team)
-- [Project Status](#project-status)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Feedback & Support](#feedback--support)
-- [Roadmap](#roadmap)
-
----
-
-## Overview
-
-**Lutt-Net** is a community-developed modification that adds multiplayer functionality to *Light Up The Town*.
-
-> **Note:** This project is in early development. Features are actively being built and tested, and builds may be unstable.
-
----
-
-## Development Team
-
-| Role | Developer |
+| Key | Action |
 | --- | --- |
-| Lead Developer | **ShadowCanvas** (ShadowCanvas815) |
-| Assistant Developer & QA Tester | **CtrlSoftware** (Shadow_sOftw4re) |
+| `J` | Open the Lyrics Cord menu |
+| `F9` | Next song |
+| `N` | Save the current lyrics line |
+| `F8` | Switch profile (Chill / PvP) |
 
----
+You can rebind all of these (plus pause, previous song, toggle sky lyrics and "sync lyrics here") under *Options > Controls > Lyrics Cord*.
 
-## Project Status
+## Download
 
-| | |
-| --- | --- |
-| **Current Version** | v0.08 |
-| **Stage** | Alpha, in active development |
+Pick the jar that matches your Minecraft version from [`downloads/`](downloads/):
 
----
+| Minecraft | File | Java |
+| --- | --- | --- |
+| 1.21.11 | [`lyrics_cord_1.21.11_fixed.jar`](downloads/lyrics_cord_1.21.11_fixed.jar) | 21+ |
+| 26.1 | [`lyrics_cord_26.1_fixed.jar`](downloads/lyrics_cord_26.1_fixed.jar) | 25+ |
+| 26.1.1 | [`lyrics_cord_26.1.1_fixed.jar`](downloads/lyrics_cord_26.1.1_fixed.jar) | 25+ |
+| 26.1.2 | [`lyrics_cord_26.1.2_fixed.jar`](downloads/lyrics_cord_26.1.2_fixed.jar) | 25+ |
+| 26.2 | [`lyrics_cord_26.2_fixed.jar`](downloads/lyrics_cord_26.2_fixed.jar) | 25+ |
+| 26.3 | [`lyrics_cord_26.3_fixed.jar`](downloads/lyrics_cord_26.3_fixed.jar) | 25+ |
 
-## Requirements
+## Install
 
-- *Light Up The Town* (Steam, Windows)
-- The Lutt-Net release archive (`MultiplayerModTest?.zip`)
+1. Install [Fabric Loader](https://fabricmc.net/use/) (0.17.3 or newer) for your Minecraft version.
+2. Put [Fabric API](https://modrinth.com/mod/fabric-api) in your `mods` folder.
+3. Put the matching `lyrics_cord_*.jar` in the same `mods` folder.
+4. Launch the game, open Spotify and play a song, then press `J` in-game.
 
----
+## Disclaimer
 
-## Installation
+This is an unofficial fan project. It is not affiliated with or endorsed by Spotify AB or Mojang/Microsoft. "Spotify" and "Minecraft" are trademarks of their respective owners. Lyrics are provided by lrclib.net.
 
-> The paths below assume Steam is installed at `C:\SteamLibrary`. Adjust them if your library is elsewhere.
+## License
 
-1. **Download** the release archive `MultiplayerModTest?.zip` and extract it.
-
-2. **Install the mod loader files.** Copy the `ue4ss` folder from the archive into:
-
-   ```
-   C:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64
-   ```
-
-3. **Enable mod injection.** Copy `dwmapi.dll` into the same folder:
-
-   ```
-   C:\SteamLibrary\steamapps\common\Light Up The Town\LightUpTheTown\Binaries\Win64
-   ```
-
-4. **Launch** the game through Steam.
-
-Additional installation steps will be published as public builds become available.
-
----
-
-## Feedback & Support
-
-Found a bug, have a suggestion, or need help?
-
-- Open an [Issue](../../issues) on this repository.
-- When reporting a bug, please include your mod version (v0.08), steps to reproduce, and any relevant log files.
-
----
-
-## Roadmap
-
-Further features and public builds are planned as development progresses. Watch or star this repository to stay up to date.
-
----
-
-<div align="center">
-
-*Lutt-Net is an unofficial community project and is not affiliated with or endorsed by the developers or publishers of Light Up The Town.*
-
-</div>
+[MIT](LICENSE)
