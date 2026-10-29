@@ -33,8 +33,7 @@ dependencies {
 
 loom {
     accessWidenerPath = file("neonlyrics.accesswidener")
-    mixinConfigs = ["neonlyrics.mixins.json"]
-    modJson = file("fabric.mod.json")
+    fabricModJsonPath = file("fabric.mod.json")
 }
 
 
