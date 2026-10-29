@@ -50,16 +50,4 @@ tasks.named("jar") {
             "Main-Class": "dev.neonlyrics.NeonLyrics"
         )
     }
-    from(configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }) {
-        exclude "META-INF/**"
-    }
-}
-
-tasks.matching { it.name == "remapJar" }.configureEach {
-    dependsOn(tasks.named("jar"))
-    enabled = false
-}
-
-tasks.named("build") {
-    dependsOn(tasks.named("jar"))
 }
