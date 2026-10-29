@@ -32,10 +32,11 @@ dependencies {
 }
 
 loom {
-    accessWidener = file("neonlyrics.accesswidener")
+    accessWidenerPath = file("neonlyrics.accesswidener")
     mixinConfigs = ["neonlyrics.mixins.json"]
     modJson = file("fabric.mod.json")
 }
+
 
 tasks.named("jar") {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
