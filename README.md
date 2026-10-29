@@ -4,6 +4,8 @@
 
 Spotify Craft brings your currently playing music into Minecraft with animated, 3D lyrics that appear in the sky and stay in sync with your song. Enjoy a now-playing display, album artwork, visualisers, custom skies, cosmetics, and a glass-style hotbar.
 
+The current source for this github is only for 1 jar (26.1.2), so when you build it it will only be compatible with 26.1.2!
+
 > **Free and open source:** Spotify Craft is now available for everyone to use. It was previously a paid mod.
 
 ## Contents
