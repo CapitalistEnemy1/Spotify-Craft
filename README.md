@@ -1,13 +1,19 @@
 The Propaganda That You Hear From LyricCord Discord Server Is To Scare You This Is 100% Safe, Check The Source Code Yourself!!
-The MIT License Attached Inside The "fabric.mod.json" Allows This Content To Be Redistributed, Read More On https://opensource.org/license/mit. This is 100% Legal, To The Devs Of That LyricsCord Mod F*ck You
+The MIT License Attached Inside The "fabric.mod.json" Allows This Content To Be Redistributed, Read More On https://opensource.org/license/mit. This is 100% Legal, To The Devs Of That LyricsCord Mod F*ck You. (We have had past trauma with the devs please ignore this mini rant).
 
 # Spotify Craft (Lyrics Cord)
 
 **Live Spotify lyrics inside Minecraft.** Your current song's lyrics float in the sky in 3D, in time with the music, with a now-playing bar, album art and a glass-style hotbar.
 
-This mod is to be paid. It's now **free and open for everyone**.
+This mod used to be paid! It's now **free and open for everyone**.
 
 ![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/non-malware-proof.png)
+
+![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/blob/main/no-malware.png)
+
+- **The reason it is at 8%** -> The batch file is harmless, the mod does not even come with it in the source-cod. The only reason it is there is to build the mod from the source-code after updating this repo. The workflow is at https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/actions/workflows/build.yml you can even check the .Bat file yourself, it is nothing malicious.
+
+- **Check it yourself at:**
 
 https://www.scanrepo.dev/scan/github/CapitalistEnemy1/Spotify-Craft-MC-Mod
 
