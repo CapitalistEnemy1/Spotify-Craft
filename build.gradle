@@ -55,7 +55,7 @@ tasks.named("jar") {
     }
 }
 
-tasks.named("remapJar") {
+tasks.matching { it.name == "remapJar" }.configureEach {
     dependsOn(tasks.named("jar"))
     enabled = false
 }
