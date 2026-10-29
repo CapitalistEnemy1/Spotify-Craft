@@ -1823,7 +1823,7 @@ extends Screen {
         if (m.size() > 600) {
             m.clear();
         }
-        return m.computeIfAbsent(s, k -> Component.literal((String)k).withStyle(Style.EMPTY.withFont(FONTS.get((Object)t))));
+        return (Component)m.computeIfAbsent(s, k -> Component.literal((String)k).withStyle(Style.EMPTY.withFont(FONTS.get((Object)t))));
     }
 
     private int tw(String s, T t) {

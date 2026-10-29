@@ -45,16 +45,22 @@ jobs:
       - name: Show Gradle failure details
         if: failure() && steps.gradle_build.outcome == 'failure'
         run: |
-          echo "::group::Gradle build log (last 200 lines)"
-          tail -n 200 gradle-build.log
+          echo "::group::Gradle build log (last 400 lines)"
+          tail -n 400 gradle-build.log
           echo "::endgroup::"
+          echo "::group::All javac error: lines (with 2 lines of context each)"
+          grep -n -B2 '\.java:[0-9]*: error:' gradle-build.log || true
+          echo "::endgroup::"
+          grep -n '\.java:[0-9]*: error:' gradle-build.log | while IFS= read -r line; do
+            printf '::error::%s\n' "$line"
+          done
           echo "::group::What went wrong"
           awk '/^\* What went wrong:/,/^\* Try:/' gradle-build.log
           echo "::endgroup::"
           awk '/^\* What went wrong:/,/^\* Try:/' gradle-build.log | grep -v '^\* Try:' | while IFS= read -r line; do
             printf '::error::%s\n' "$line"
           done
-          if ! grep -q '^\* What went wrong:' gradle-build.log; then
+          if ! grep -q '^\* What went wrong:' gradle-build.log && ! grep -q '\.java:[0-9]*: error:' gradle-build.log; then
             tail -n 30 gradle-build.log | while IFS= read -r line; do
               printf '::error::%s\n' "$line"
             done
