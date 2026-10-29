@@ -36,9 +36,20 @@ jobs:
         run: chmod +x ./gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build --no-daemon --stacktrace
+        id: gradle_build
+        run: ./gradlew build --no-daemon --stacktrace 2>&1 | tee gradle-build.log
         env:
           GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx3g"
+
+      - name: Show Gradle failure details
+        if: failure() && steps.gradle_build.outcome == 'failure'
+        run: |
+          echo "::group::Gradle build log (last 200 lines)"
+          tail -n 200 gradle-build.log
+          echo "::endgroup::"
+          tail -n 30 gradle-build.log | while IFS= read -r line; do
+            printf '::error::%s\n' "$line"
+          done
 
       - name: Find built JAR
         id: find-jar
