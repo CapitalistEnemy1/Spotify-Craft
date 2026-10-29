@@ -1,10 +1,13 @@
 The Propaganda That You Hear From LyricCord Discord Server Is To Scare You This Is 100% Safe
 Due To The MIT License This is 100% Legal To The Devs Of That LyricsCord Mod F*ck You
+
 # Spotify Craft (Lyrics Cord)
 
 **Live Spotify lyrics inside Minecraft.** Your current song's lyrics float in the sky in 3D, in time with the music, with a now-playing bar, album art and a glass-style hotbar.
 
 This mod used to be paid. It's now **free and open for everyone**.
+
+![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/Screenshot%202026-10-28%20232818.png)
 
 ## Features
 
@@ -33,16 +36,16 @@ You can rebind all of these (plus pause, previous song, toggle sky lyrics and "s
 
 ## Download
 
-Pick the jar that matches your Minecraft version from [`downloads/`](downloads/):
+Pick the jar that matches your Minecraft version from the [GitHub Releases page](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/tag/1.0.0):
 
 | Minecraft | File | Java |
 | --- | --- | --- |
-| 1.21.11 | [`lyrics_cord_1.21.11_fixed.jar`](downloads/lyrics_cord_1.21.11_fixed.jar) | 21+ |
-| 26.1 | [`lyrics_cord_26.1_fixed.jar`](downloads/lyrics_cord_26.1_fixed.jar) | 25+ |
-| 26.1.1 | [`lyrics_cord_26.1.1_fixed.jar`](downloads/lyrics_cord_26.1.1_fixed.jar) | 25+ |
-| 26.1.2 | [`lyrics_cord_26.1.2_fixed.jar`](downloads/lyrics_cord_26.1.2_fixed.jar) | 25+ |
-| 26.2 | [`lyrics_cord_26.2_fixed.jar`](downloads/lyrics_cord_26.2_fixed.jar) | 25+ |
-| 26.3 | [`lyrics_cord_26.3_fixed.jar`](downloads/lyrics_cord_26.3_fixed.jar) | 25+ |
+| 1.21.11 | [`lyrics_cord_1.21.11_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_1.21.11_fixed.jar) | 21+ |
+| 26.1 | [`lyrics_cord_26.1_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1_fixed.jar) | 25+ |
+| 26.1.1 | [`lyrics_cord_26.1.1_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1.1_fixed.jar) | 25+ |
+| 26.1.2 | [`lyrics_cord_26.1.2_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1.2_fixed.jar) | 25+ |
+| 26.2 | [`lyrics_cord_26.2_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.2_fixed.jar) | 25+ |
+| 26.3 | [`lyrics_cord_26.3_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.3_fixed.jar) | 25+ |
 
 ## Install
 
