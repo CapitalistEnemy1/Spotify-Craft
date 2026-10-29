@@ -1,6 +1,3 @@
-The Propaganda That You Hear From LyricCord Discord Server Is To Scare You This Is 100% Safe, Check The Source Code Yourself!!
-The MIT License Attached Inside The "fabric.mod.json" Allows This Content To Be Redistributed, Read More On https://opensource.org/license/mit. This is 100% Legal, To The Devs Of That LyricsCord Mod F*ck You. (We have had past trauma with the devs please ignore this mini rant).
-
 # Spotify Craft (Lyrics Cord)
 
 **Live Spotify lyrics inside Minecraft.**
@@ -79,27 +76,32 @@ You can rebind these keys, along with controls for pausing, playing the previous
 - Spotify Free and Premium accounts are supported; some playback controls require Premium.
 - Spotify Craft is a client-side mod, so it does not need to be installed on a multiplayer server.
 
-## Security and Virus Scanning
+## Virus Check and Security
 
-**Please review software for yourself before running it.** This repository includes links to tools that can help you inspect the source code and scan files.
+The project includes screenshots and links to help you inspect the repository and its files yourself. Please do your own checks before running any downloaded software.
 
-- **Scan the repository:** [ScanRepo — Spotify-Craft-MC-Mod](https://www.scanrepo.dev/scan/github/CapitalistEnemy1/Spotify-Craft-MC-Mod)
-- **Scan an individual file:** [VirusTotal file upload](https://www.virustotal.com/gui/home/upload)
+### Virus-scan screenshots
+
+![Virus scan screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/non-malware-proof.png?raw=true)
+
+![Batch-file scan screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/no-malware-bat.png?raw=true)
+
+![Additional virus-scan screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/blob/main/no-malware.png?raw=true)
+
+### Check it yourself
+
+- **For the whole repository:** [ScanRepo — Spotify-Craft-MC-Mod](https://www.scanrepo.dev/scan/github/CapitalistEnemy1/Spotify-Craft-MC-Mod)
+- **For individual files:** [Upload a file to VirusTotal](https://www.virustotal.com/gui/home/upload)
 - **Inspect the build workflow:** [GitHub Actions — build.yml](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/actions/workflows/build.yml)
 - **Review the source code:** [Spotify-Craft-MC-Mod on GitHub](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod)
 
-### About the batch-file detection
+### Why does the batch file show an 8% detection score?
 
-A low detection score or a warning from one antivirus engine does not, by itself, establish whether a file is malicious or harmless. The project maintainer's explanation is that the batch file is used to build the mod from source and is not included in the mod itself. You can inspect the [build workflow](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/actions/workflows/build.yml) and the relevant files yourself.
+The explanation provided by the project maintainer is that the batch file is used to build the mod from source after the repository is updated, and is not included in the mod itself. You can inspect the [build workflow](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/actions/workflows/build.yml) and submit the batch file to VirusTotal or another scanner to review the results yourself.
 
-For safer downloads:
+**Important:** A detection percentage alone cannot prove that a file is malicious or harmless. Antivirus tools can produce false positives, and a clean scan does not guarantee that software is safe. Review the source code and scan results yourself, and only run files you trust.
 
-- Prefer releases and source code from the project's official GitHub repositories.
-- Check that the downloaded file matches the expected release.
-- Review scan results and investigate detections rather than relying on a single percentage or verdict.
-- Do not run scripts or executables unless you understand and trust what they do.
-
-**Security note:** Virus scanners can produce false positives, and a clean scan is not a guarantee that software is safe. These links are provided to support independent review; they are not a certification that every file is malware-free.
+Remember: check files before running them and stay safe online — click clever, click safe.
 
 ## Source Code and Licence
 
