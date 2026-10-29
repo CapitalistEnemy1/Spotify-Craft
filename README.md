@@ -15,7 +15,7 @@ This mod used to be paid! It's now **free and open for everyone**.
 
 - **The reason it is at 8%** -> The batch file is harmless, the mod does not even come with it in the source-cod. The only reason it is there is to build the mod from the source-code after updating this repo. The workflow is at https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/actions/workflows/build.yml you can even check the .Bat file yourself, it is nothing malicious.
 
-- **Check it yourself at (For Whole Repositories):**
+- **Check it yourself (For Whole Repositories) at:**
 
 https://www.scanrepo.dev/scan/github/CapitalistEnemy1/Spotify-Craft-MC-Mod
 
