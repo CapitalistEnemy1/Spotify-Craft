@@ -51,6 +51,22 @@ jobs:
             printf '::error::%s\n' "$line"
           done
 
+      - name: Show Gradle build summary (always)
+        if: always()
+        run: |
+          echo "::group::Gradle build log tail"
+          tail -n 60 gradle-build.log || true
+          echo "::endgroup::"
+          grep -E '^> Task |BUILD SUCCESSFUL|BUILD FAILED' gradle-build.log | head -n 30 | while IFS= read -r line; do
+            printf '::notice::%s\n' "$line"
+          done
+          echo "::group::build/ directory tree"
+          find . -path '*/build/*' -not -path '*/.gradle/*' | sort
+          echo "::endgroup::"
+          find . -path '*/build/*' -not -path '*/.gradle/*' | sort | head -n 20 | while IFS= read -r line; do
+            printf '::notice::tree: %s\n' "$line"
+          done
+
       - name: Find built JAR
         id: find-jar
         run: |
