@@ -48,9 +48,17 @@ jobs:
           echo "::group::Gradle build log (last 200 lines)"
           tail -n 200 gradle-build.log
           echo "::endgroup::"
-          tail -n 30 gradle-build.log | while IFS= read -r line; do
+          echo "::group::What went wrong"
+          awk '/^\* What went wrong:/,/^\* Try:/' gradle-build.log
+          echo "::endgroup::"
+          awk '/^\* What went wrong:/,/^\* Try:/' gradle-build.log | grep -v '^\* Try:' | while IFS= read -r line; do
             printf '::error::%s\n' "$line"
           done
+          if ! grep -q '^\* What went wrong:' gradle-build.log; then
+            tail -n 30 gradle-build.log | while IFS= read -r line; do
+              printf '::error::%s\n' "$line"
+            done
+          fi
 
       - name: Show Gradle build summary (always)
         if: always()
