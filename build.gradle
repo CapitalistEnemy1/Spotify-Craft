@@ -36,6 +36,33 @@ loom {
     fabricModJsonPath = file("fabric.mod.json")
 }
 
+// Sources and game assets for this project don't follow Gradle's
+// default src/main/java and src/main/resources layout: Java sources
+// live directly under src/, and textures/lang/fonts live under
+// assets/ at the project root. Minecraft's resource loader expects
+// the "assets/" prefix to survive inside the jar (assets/<modid>/...),
+// so the project root - not assets/ itself - is the resources
+// source dir, filtered down to just the assets/ tree.
+sourceSets {
+    main {
+        java {
+            srcDirs = ["src"]
+        }
+        resources {
+            srcDirs = [rootProject.projectDir]
+            // assets/ is the game's texture/lang/font tree; the other
+            // three are the mod's own metadata/mixin/access-widener
+            // files, also kept at the project root rather than under
+            // resources/. All need to land at the jar root so Fabric
+            // Loader and Loom's nested-jar handling recognize the
+            // output as a mod jar.
+            include "assets/**"
+            include "fabric.mod.json"
+            include "neonlyrics.mixins.json"
+            include "neonlyrics.accesswidener"
+        }
+    }
+}
 
 tasks.named("jar") {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
