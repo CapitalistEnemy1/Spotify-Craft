@@ -5,12 +5,15 @@ plugins {
 
 group = "dev.neonlyrics"
 version = "2.1.0+mc26.1.2"
-archivesBaseName = "lyrics-cord"
 
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(25)
     }
+}
+
+base {
+    archivesName = "lyrics-cord"
 }
 
 repositories {
