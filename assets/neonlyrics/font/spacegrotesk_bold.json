@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "neonlyrics:spacegrotesk_bold.ttf",
+      "size": 8.5,
+      "oversample": 4.0,
+      "shift": [
+        0,
+        0
+      ],
+      "skip": ""
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

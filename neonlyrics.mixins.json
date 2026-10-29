@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_21",
   "client": [
     "EntityRendererMixin",
-    "FogRendererMixin"
+    "FogRendererMixin",
+    "HandMixin"
   ],
   "injectors": {
     "defaultRequire": 0

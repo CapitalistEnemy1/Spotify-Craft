@@ -1,0 +1,19 @@
+{
+  "providers": [
+    {
+      "type": "ttf",
+      "file": "neonlyrics:outfit_bold.ttf",
+      "size": 8.25,
+      "oversample": 4.0,
+      "shift": [
+        0,
+        0
+      ],
+      "skip": ""
+    },
+    {
+      "type": "reference",
+      "id": "minecraft:default"
+    }
+  ]
+}

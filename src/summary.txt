@@ -1,9 +1,0 @@
-Summary for spotify-craft 26.1.2.jar
-Decompiled with CFR 0.152
-
-
-dev.neonlyrics.lyrics.SpotifyClient
-----------------------------
-
-waitForCallback(java.net.ServerSocket java.lang.String java.lang.String java.lang.String )
-  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
