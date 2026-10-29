@@ -27,7 +27,7 @@ This mod used to be paid. It's now **free and open for everyone**.
 
 | Key | Action |
 | --- | --- |
-| `J` | Open the Lyrics Cord menu |
+| `J` | Open the Spotify Craft menu |
 | `F9` | Next song |
 | `N` | Save the current lyrics line |
 | `F8` | Switch profile (Chill / PvP) |
@@ -40,18 +40,18 @@ Pick the jar that matches your Minecraft version from the [GitHub Releases page]
 
 | Minecraft | File | Java |
 | --- | --- | --- |
-| 1.21.11 | [`lyrics_cord_1.21.11_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_1.21.11_fixed.jar) | 21+ |
-| 26.1 | [`lyrics_cord_26.1_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1_fixed.jar) | 25+ |
-| 26.1.1 | [`lyrics_cord_26.1.1_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1.1_fixed.jar) | 25+ |
-| 26.1.2 | [`lyrics_cord_26.1.2_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1.2_fixed.jar) | 25+ |
-| 26.2 | [`lyrics_cord_26.2_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.2_fixed.jar) | 25+ |
-| 26.3 | [`lyrics_cord_26.3_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.3_fixed.jar) | 25+ |
+| 1.21.11 | [`Spotify-Craft_1.21.11_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_1.21.11_fixed.jar) | 21+ |
+| 26.1 | [`Spotify-Craft_26.1_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1_fixed.jar) | 25+ |
+| 26.1.1 | [`Spotify-Craft_26.1.1_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1.1_fixed.jar) | 25+ |
+| 26.1.2 | [`Spotify-Craft_26.1.2_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1.2_fixed.jar) | 25+ |
+| 26.2 | [`Spotify-Craft_26.2_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.2_fixed.jar) | 25+ |
+| 26.3 | [`Spotify-Craft_26.3_fixed.jar`](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.3_fixed.jar) | 25+ |
 
 ## Install
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) (0.17.3 or newer) for your Minecraft version.
 2. Put [Fabric API](https://modrinth.com/mod/fabric-api) in your `mods` folder.
-3. Put the matching `lyrics_cord_*.jar` in the same `mods` folder.
+3. Put the matching `Spotify-Craft_*.jar` in the same `mods` folder.
 4. Launch the game, open Spotify and play a song, then press `J` in-game.
 
 ## Disclaimer
