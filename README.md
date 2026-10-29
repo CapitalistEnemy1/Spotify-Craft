@@ -11,6 +11,8 @@ This mod used to be paid! It's now **free and open for everyone**.
 
 ![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/non-malware-proof.png)
 
+![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/no-malware-bat.png)
+
 ![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/blob/main/no-malware.png)
 
 - **The reason it is at 8%** -> The batch file is harmless, the mod does not even come with it in the source-cod. The only reason it is there is to build the mod from the source-code after updating this repo. The workflow is at https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/actions/workflows/build.yml you can even check the .Bat file yourself on virus total or another website, it is nothing malicious.
