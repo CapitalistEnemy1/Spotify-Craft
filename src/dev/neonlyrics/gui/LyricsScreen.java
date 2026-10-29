@@ -190,7 +190,7 @@ extends Screen {
         this.idBox.setTextColor(-1118479);
         this.idBox.setValue(LyricsScreen.c().spotifyClientId);
         this.idBox.setHint((Component)Component.literal((String)LyricsScreen.t("hint.clientid", new Object[0])).withStyle(ChatFormatting.DARK_GRAY));
-        this.addRenderableWidget((GuiEventListener)this.idBox);
+        this.addRenderableWidget(this.idBox);
         LyricsScreen.show(this.idBox, false);
     }
 

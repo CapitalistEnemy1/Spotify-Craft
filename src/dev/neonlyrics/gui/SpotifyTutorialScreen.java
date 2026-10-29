@@ -78,7 +78,7 @@ extends Screen {
         this.idBox.setTextColor(-790529);
         this.idBox.setValue(NeonLyrics.cfg().spotifyClientId);
         this.idBox.setHint((Component)Component.literal((String)Fx.t("neonlyrics.hint.clientid", new Object[0])).withStyle(ChatFormatting.DARK_GRAY));
-        this.addRenderableWidget((GuiEventListener)this.idBox);
+        this.addRenderableWidget(this.idBox);
     }
 
     private void go(int s) {

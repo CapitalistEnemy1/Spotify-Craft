@@ -57,7 +57,7 @@ extends Screen {
         this.box.setHint((Component)Component.literal((String)"LCORD-XXXX-XXXX-XXXX"));
         String old = NeonLyrics.cfg().licenseCode;
         this.box.setValue(old.startsWith("R1:") ? "" : old);
-        this.addRenderableWidget((GuiEventListener)this.box);
+        this.addRenderableWidget(this.box);
         this.setInitialFocus((GuiEventListener)this.box);
     }
 
