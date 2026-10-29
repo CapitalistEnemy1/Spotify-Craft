@@ -7,15 +7,23 @@ The MIT License Attached Inside The "fabric.mod.json" Allows This Content To Be 
 
 This mod used to be paid! It's now **free and open for everyone**.
 
+## Virus Check
+
 ![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/non-malware-proof.png)
 
 ![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/blob/main/no-malware.png)
 
 - **The reason it is at 8%** -> The batch file is harmless, the mod does not even come with it in the source-cod. The only reason it is there is to build the mod from the source-code after updating this repo. The workflow is at https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/actions/workflows/build.yml you can even check the .Bat file yourself, it is nothing malicious.
 
-- **Check it yourself at:**
+- **Check it yourself at (For Whole Repositories):**
 
 https://www.scanrepo.dev/scan/github/CapitalistEnemy1/Spotify-Craft-MC-Mod
+
+- **Or (For Single Files):**
+
+https://www.virustotal.com/gui/home/upload
+
+- **Remember:** Check all files for a virus, and be safe on the internet.
 
 ## Features
 
