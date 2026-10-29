@@ -84,7 +84,7 @@ The project includes screenshots and links to help you inspect the repository an
 
 ![Virus scan screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/non-malware-proof.png?raw=true)
 
-![Batch-file scan screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/no-malware-bat.png?raw=true)
+![Batch-file scan screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/no-malware-bat2.png?raw=true)
 
 ![Additional virus-scan screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-MC-Mod/blob/main/no-malware.png?raw=true)
 
