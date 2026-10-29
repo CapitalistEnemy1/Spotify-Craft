@@ -37,14 +37,14 @@ Choose the download that matches your Minecraft version.
 
 | Minecraft version | Download | Required Java |
 | --- | --- | --- |
-| 1.21.11 | [Spotify_Craft_1.21.11_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_1.21.11_fixed.jar) | Java 21 or newer |
-| 26.1 | [Spotify_Craft_26.1_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1_fixed.jar) | Java 25 or newer |
-| 26.1.1 | [Spotify_Craft_26.1.1_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1.1_fixed.jar) | Java 25 or newer |
-| 26.1.2 | [Spotify_Craft_26.1.2_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.1.2_fixed.jar) | Java 25 or newer |
-| 26.2 | [Spotify_Craft_26.2_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.2_fixed.jar) | Java 25 or newer |
-| 26.3 | [Spotify_Craft_26.3_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/1.0.0/lyrics_cord_26.3_fixed.jar) | Java 25 or newer |
+| 1.21.11 | [Spotify_Craft_1.21.11_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/2.0.0/Spotify_Craft_1.21.11_fixed.jar) | Java 21 or newer |
+| 26.1 | [Spotify_Craft_26.1_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/2.0.0/Spotify_Craft_26.1_fixed.jar) | Java 25 or newer |
+| 26.1.1 | [Spotify_Craft_26.1.1_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/2.0.0/Spotify_Craft_26.1.1_fixed.jar) | Java 25 or newer |
+| 26.1.2 | [Spotify_Craft_26.1.2_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/2.0.0/Spotify_Craft_26.1.2_fixed.jar) | Java 25 or newer |
+| 26.2 | [Spotify_Craft_26.2_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/2.0.0/Spotify_Craft_26.2_fixed.jar) | Java 25 or newer |
+| 26.3 | [Spotify_Craft_26.3_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/2.0.0/Spotify_Craft_26.3_fixed.jar) | Java 25 or newer |
 
-**[Browse all releases](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/tag/1.0.0)**
+**[Browse all releases](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/tag/2.0.0)**
 
 ## Installation
 
