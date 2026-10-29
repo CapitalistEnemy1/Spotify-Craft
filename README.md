@@ -5,9 +5,11 @@ The MIT License Attached Inside The "fabric.mod.json" Allows This Content To Be 
 
 **Live Spotify lyrics inside Minecraft.** Your current song's lyrics float in the sky in 3D, in time with the music, with a now-playing bar, album art and a glass-style hotbar.
 
-This mod used to be paid. It's now **free and open for everyone**.
+This mod is to be paid. It's now **free and open for everyone**.
 
 ![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/non-malware-proof.png)
+
+https://www.scanrepo.dev/scan/github/CapitalistEnemy1/Spotify-Craft-MC-Mod
 
 ## Features
 
