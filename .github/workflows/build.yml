@@ -37,7 +37,8 @@ jobs:
 
       - name: Build with Gradle
         id: gradle_build
-        run: ./gradlew build --no-daemon --stacktrace 2>&1 | tee gradle-build.log
+        shell: bash
+        run: set -o pipefail; ./gradlew build --no-daemon --stacktrace 2>&1 | tee gradle-build.log
         env:
           GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx3g"
 
