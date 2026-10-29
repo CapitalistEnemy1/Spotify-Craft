@@ -7,7 +7,7 @@ The MIT License Attached Inside The "fabric.mod.json" Allows This Content To Be 
 
 This mod used to be paid. It's now **free and open for everyone**.
 
-![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/Screenshot%202026-10-28%20232818.png)
+![Screenshot](https://github.com/CapitalistEnemy1/Spotify-Craft-/blob/main/non-malware-proof.png)
 
 ## Features
 
