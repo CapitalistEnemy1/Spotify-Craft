@@ -1,5 +1,5 @@
-The Propaganda That You Hear From LyricCord Discord Server Is To Scare You This Is 100% Safe
-Due To The MIT License This is 100% Legal To The Devs Of That LyricsCord Mod F*ck You
+The Propaganda That You Hear From LyricCord Discord Server Is To Scare You This Is 100% Safe, Check The Source Code Yourself!!
+The MIT License Attached Inside The "fabric.mod.json" Allows This Content To Be Redistributed, Read More On https://opensource.org/license/mit. This is 100% Legal, To The Devs Of That LyricsCord Mod F*ck You
 
 # Spotify Craft (Lyrics Cord)
 
