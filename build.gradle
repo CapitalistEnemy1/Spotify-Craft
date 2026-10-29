@@ -1,0 +1,64 @@
+plugins {
+    id "fabric-loom" version "1.1.0"
+    id "java"
+}
+
+group = "dev.neonlyrics"
+version = "2.1.0+mc26.1.2"
+archivesBaseName = "lyrics-cord"
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://maven.fabricmc.net" }
+    maven { url "https://maven.neoforged.net/releases" }
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}"
+    modImplementation "net.fabricmc:fabric-loader:${project.fabric_loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+    modImplementation "com.google.code.gson:gson:2.11.0"
+    include "com.google.code.gson:gson:2.11.0"
+}
+
+loom {
+    mappings = "net.fabricmc:yarn:${project.yarn_mappings}"
+    accessWidener = file("neonlyrics.accesswidener")
+    mixinConfigs = ["neonlyrics.mixins.json"]
+    modJson = file("fabric.mod.json")
+}
+
+tasks.named("jar") {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes(
+            "Fabric-Mod-ID": "neonlyrics",
+            "Fabric-Version": "1.0",
+            "Mod-Name": "Lyrics Cord",
+            "Mod-Version": version,
+            "Mod-Author": "polishtraps85",
+            "License": "MIT",
+            "Main-Class": "dev.neonlyrics.NeonLyrics"
+        )
+    }
+    from(configurations.compileClasspath.collect { it.isDirectory() ? it : zipTree(it) }) {
+        exclude "META-INF/**"
+    }
+}
+
+tasks.named("remapJar") {
+    dependsOn(tasks.named("jar"))
+    enabled = false
+}
+
+tasks.named("build") {
+    dependsOn(tasks.named("jar"))
+}

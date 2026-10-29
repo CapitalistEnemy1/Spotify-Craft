@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        maven { url "https://maven.fabricmc.net" }
+        gradlePluginPortal()
+    }
+    plugins {
+        id "fabric-loom" version "1.10-SNAPSHOT"
+    }
+}
+
+rootProject.name = "lyrics-cord"
