@@ -69,7 +69,7 @@ extends class_437 {
         Gfx.aaRound(g, x, y, w, h, 12.0f, 726803, 0.96f);
         Gfx.aaRound(g, x, y, w, 2.0f, 1.0f, 3528347, 0.9f);
         Gfx.center(g, LicenseScreen.tr("title"), this.field_22789 / 2, y + 14, 0xFFFFFF, 1.0f, true);
-        Gfx.center(g, LicenseScreen.tr("account") + " " + License.name(), this.field_22789 / 2, y + 32, 13219327, 1.0f, false);
+        Gfx.center(g, LicenseScreen.tr("account") + " " + License.name(), this.field_22789 / 2, y + 32, 10479300, 1.0f, false);
         Gfx.center(g, LicenseScreen.tr("hint"), this.field_22789 / 2, y + 48, 0xAAAAB5, 1.0f, false);
         Gfx.aaRound(g, x + 10, this.field_22790 / 2, w - 20, 24.0f, 6.0f, 0, 0.5f);
         super.method_25394(g, mouseX, mouseY, delta);

@@ -100,7 +100,7 @@ extends class_437 {
         }
         float a = Anim.outCubic(Anim.since(this.opened, 250L));
         Gfx.alpha = 1.0f;
-        Gfx.vGradient(g, 0, 0, this.field_22789, this.field_22790, 460044, 528910, 0.55f * a, 0.75f * a);
+        Gfx.vGradient(g, 0, 0, this.field_22789, this.field_22790, 264711, 528910, 0.55f * a, 0.75f * a);
     }
 
     public void method_25394(class_332 g, int mouseX, int mouseY, float delta) {
@@ -263,8 +263,8 @@ extends class_437 {
     private void drawWelcome(class_332 g, int x, int y, int w, int h) {
         int i;
         int acc = Theme.accent();
-        Gfx.round(g, x, y, w, h, 8, 722962, 0.95f);
-        Gfx.vGradient(g, x + 6, y + 6, w - 12, h - 12, 788246, 2758213, 1.0f, 1.0f);
+        Gfx.round(g, x, y, w, h, 8, 529167, 0.95f);
+        Gfx.vGradient(g, x + 6, y + 6, w - 12, h - 12, 529167, 1784365, 1.0f, 1.0f);
         Random r = new Random(4L);
         double t = (double)System.currentTimeMillis() / 1000.0;
         for (i = 0; i < 40; ++i) {
@@ -273,17 +273,17 @@ extends class_437 {
         }
         for (i = 0; i < w - 12; i += 2) {
             float hh = (float)(14.0 + 8.0 * Math.sin((double)i * 0.12 + t));
-            int col = Gfx.lerpColor(6085030, 15129855, (float)(0.5 + 0.5 * Math.sin((double)i * 0.1 + t)));
+            int col = Gfx.lerpColor(6085030, 14086883, (float)(0.5 + 0.5 * Math.sin((double)i * 0.1 + t)));
             g.method_25296(x + 6 + i, y + 26, x + 8 + i, (int)((float)(y + 26) + hh), Gfx.argb(col, 0.0f), Gfx.argb(col, 0.4f));
         }
-        Gfx.round(g, x + w / 2 - 44, y + 10, 88, 11, 5, 1183260, 0.9f);
+        Gfx.round(g, x + w / 2 - 44, y + 10, 88, 11, 5, 726803, 0.9f);
         Gfx.round(g, x + w / 2 - 20, y + 12, 22, 7, 2, acc, 0.6f);
         g.method_51448().pushMatrix();
         g.method_51448().translate((float)x + (float)w / 2.0f, (float)y + (float)h / 2.0f + 8.0f);
         g.method_51448().rotate(-0.08f);
         g.method_51448().scale(1.8f, 1.8f);
         String demo = Fx.t("neonlyrics.tut.preview", new Object[0]);
-        Gfx.text(g, demo, -Gfx.w(demo) / 2, 0, 13215999, 0.95f, true);
+        Gfx.text(g, demo, -Gfx.w(demo) / 2, 0, 10479300, 0.95f, true);
         g.method_51448().popMatrix();
         Gfx.rect(g, x + 6, y + h - 14, w - 12, 8, 3037738, 0.95f);
     }
@@ -298,10 +298,10 @@ extends class_437 {
             Gfx.circle(g, x + 8 + i * 6, y + 7, 2.0f, (new int[]{0xFF5F57, 16694318, 2672704})[i], 1.0f);
         }
         Gfx.round(g, x + 30, y + 3, w - 38, 8, 3, 0xFFFFFF, 1.0f);
-        Gfx.text(g, Gfx.ellipsize("developer.spotify.com/dashboard", w - 44), x + 34, y + 3, 0x555566, 0.9f, false);
+        Gfx.text(g, Gfx.ellipsize("developer.spotify.com/dashboard", w - 44), x + 34, y + 3, 4877919, 0.9f, false);
         int cy = y + 20;
-        int dark = 0x1A1A22;
-        int gray = 0x8A8A99;
+        int dark = 0x12211B;
+        int gray = 8826011;
         int green = 1947988;
         switch (which) {
             case 1: {

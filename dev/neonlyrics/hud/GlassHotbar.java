@@ -47,7 +47,7 @@ public final class GlassHotbar {
         int x = g.method_51421() / 2 - w / 2;
         int y = g.method_51443() - h - 1;
         class_1661 inv = mc.field_1724.method_31548();
-        Gfx.round(g, x, y, w, h, 6, 1183260, 0.72f);
+        Gfx.round(g, x, y, w, h, 6, 726803, 0.72f);
         Gfx.round(g, x, y, w, 1, 1, 0xFFFFFF, 0.07f);
         int selected = inv.method_67532();
         float sx = sel.target(selected).get();
@@ -66,7 +66,7 @@ public final class GlassHotbar {
         class_1799 off = mc.field_1724.method_6079();
         if (!off.method_7960()) {
             int ox = x - 26;
-            Gfx.round(g, ox, y, 22, 22, 6, 1183260, 0.72f);
+            Gfx.round(g, ox, y, 22, 22, 6, 726803, 0.72f);
             g.method_51427(off, ox + 3, y + 3);
             g.method_51431(mc.field_1772, off, ox + 3, y + 3);
         }

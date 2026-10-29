@@ -80,10 +80,10 @@ final class WorldPanel {
     private static final float CX0 = 206.0f;
     private static final float CX1 = 366.0f;
     private static final int ACCENT = 3528347;
-    private static final int ACCENT2 = 0xDCCFFF;
-    private static final int DEEP = 5914576;
-    private static final int TOP = 1709620;
-    private static final int BOTTOM = 723479;
+    private static final int ACCENT2 = 12448472;
+    private static final int DEEP = 2068326;
+    private static final int TOP = 1057820;
+    private static final int BOTTOM = 462860;
     private static final int LIGHT = 0xF000F0;
     private static class_1921 flat;
     private final class_243 pos;
@@ -294,8 +294,8 @@ final class WorldPanel {
             for (int i = 4; i >= 1; --i) {
                 this.round(62.0f - (float)i * 2.5f, (float)(-i) * 2.5f, 318.0f + (float)i * 5.0f, 222.0f + (float)i * 5.0f, 14.0f + (float)i * 2.5f, 3528347, 3528347, 0.05f * a, 0.0f);
             }
-            this.round(61.2f, -0.8f, 319.6f, 223.6f, 14.8f, 5229464, 7231688, 0.35f * a, 0.0f);
-            this.round(62.0f, 0.0f, 318.0f, 222.0f, 14.0f, 1709620, 723479, 0.96f * a, 0.0f);
+            this.round(61.2f, -0.8f, 319.6f, 223.6f, 14.8f, 5229464, 3055224, 0.35f * a, 0.0f);
+            this.round(62.0f, 0.0f, 318.0f, 222.0f, 14.0f, 1057820, 462860, 0.96f * a, 0.0f);
             this.round(63.0f, 0.6f, 316.0f, 1.2f, 1.0f, 0xFFFFFF, 0xFFFFFF, 0.1f * a, 0.0f);
             if (content > 0.01f) {
                 this.body(mc, cf, np, content);
@@ -340,23 +340,23 @@ final class WorldPanel {
         for (int i = 0; i < bands; ++i) {
             float r0 = R * (0.38f + 0.62f * (float)i / (float)bands);
             float r1 = R * (0.38f + 0.62f * (float)(i + 1) / (float)bands);
-            int col = i % 2 == 0 ? 986900 : 0x17171E;
+            int col = i % 2 == 0 ? 660496 : 1056023;
             this.ring(0.0f, 0.0f, r0, r1, 0.0f, 360.0f, col, a, col, a, 0.001f, 48);
         }
-        this.ring(0.0f, 0.0f, R - 1.4f, R, 0.0f, 360.0f, 0x34343F, a, 0x34343F, a, 0.002f, 48);
+        this.ring(0.0f, 0.0f, R - 1.4f, R, 0.0f, 360.0f, 2771517, a, 2771517, a, 0.002f, 48);
         float deg = (float)Math.toDegrees(this.spin);
         for (int k = 0; k < 4; ++k) {
             float r0 = R * (0.48f + 0.12f * (float)k);
             float s0 = deg + (float)(k * 97);
-            this.ring(0.0f, 0.0f, r0, r0 + 1.1f, s0, s0 + 38.0f, 0x45455A, a, 0x45455A, a, 0.002f, 8);
+            this.ring(0.0f, 0.0f, r0, r0 + 1.1f, s0, s0 + 38.0f, 4089174, a, 4089174, a, 0.002f, 8);
         }
         this.ring(0.0f, 0.0f, R * 0.4f, R * 0.98f, 300.0f, 330.0f, 0xFFFFFF, 0.02f * a, 0xFFFFFF, 0.11f * a, 0.003f, 6);
         this.ring(0.0f, 0.0f, R * 0.4f, R * 0.98f, 120.0f, 150.0f, 0xFFFFFF, 0.02f * a, 0xFFFFFF, 0.08f * a, 0.003f, 6);
-        this.ring(0.0f, 0.0f, 0.0f, R * 0.36f, 0.0f, 360.0f, 0xDCCFFF, a, 5914576, a, 0.004f, 40);
-        this.ring(0.0f, 0.0f, R * 0.33f, R * 0.36f, 0.0f, 360.0f, 5914576, a, 5914576, a, 0.005f, 40);
-        this.ring(0.0f, 0.0f, 0.0f, R * 0.04f, 0.0f, 360.0f, 526348, a, 526348, a, 0.006f, 16);
+        this.ring(0.0f, 0.0f, 0.0f, R * 0.36f, 0.0f, 360.0f, 12448472, a, 2068326, a, 0.004f, 40);
+        this.ring(0.0f, 0.0f, R * 0.33f, R * 0.36f, 0.0f, 360.0f, 2068326, a, 2068326, a, 0.005f, 40);
+        this.ring(0.0f, 0.0f, 0.0f, R * 0.04f, 0.0f, 360.0f, 264711, a, 264711, a, 0.006f, 16);
         Matrix4f lm = new Matrix4f((Matrix4fc)this.m).rotateZ(-this.spin);
-        this.textAt(lm, "LYRICS CORD", 0.0f, -R * 0.2f, 0.5f, 0xFFFFFF, a, true);
+        this.textAt(lm, "SPOTIFYCRAFT", 0.0f, -R * 0.2f, 0.5f, 0xFFFFFF, a, true);
         String sub = np.hasTrack() ? np.artist : WorldPanel.tr("nomusic");
         this.textAt(lm, WorldPanel.ellip(sub, 70.0f, 0.42f), 0.0f, R * 0.1f, 0.42f, 0xFFFFFF, 0.85f * a, true);
         float px = R * 0.98f;
@@ -369,10 +369,10 @@ final class WorldPanel {
         float ny2 = dx * 1.7f;
         float ex = px + dx * L;
         float ey = py + dy * L;
-        this.poly(px + nx2, py + ny2, ex + nx2, ey + ny2, ex - nx2, ey - ny2, px - nx2, py - ny2, 14211298, a, 0.008f);
+        this.poly(px + nx2, py + ny2, ex + nx2, ey + ny2, ex - nx2, ey - ny2, px - nx2, py - ny2, 13493975, a, 0.008f);
         this.poly(ex - 4.0f * dx + 3.5f * -dy, ey - 4.0f * dy + 3.5f * dx, ex + 5.0f * dx + 3.5f * -dy, ey + 5.0f * dy + 3.5f * dx, ex + 5.0f * dx - 3.5f * -dy, ey + 5.0f * dy - 3.5f * dx, ex - 4.0f * dx - 3.5f * -dy, ey - 4.0f * dy - 3.5f * dx, 11053238, a, 0.009f);
-        this.ring(px, py, 0.0f, 8.0f, 0.0f, 360.0f, 5921384, a, 2894902, a, 0.009f, 20);
-        this.ring(px, py, 0.0f, 3.0f, 0.0f, 360.0f, 0xE0E0EA, a, 0xE0E0EA, a, 0.01f, 12);
+        this.ring(px, py, 0.0f, 8.0f, 0.0f, 360.0f, 5732714, a, 2046510, a, 0.009f, 20);
+        this.ring(px, py, 0.0f, 3.0f, 0.0f, 360.0f, 13822941, a, 13822941, a, 0.01f, 12);
     }
 
     private void body(class_310 mc, Config cf, NowPlaying np, float a) {
@@ -404,7 +404,7 @@ final class WorldPanel {
             float h = this.hv("tab" + i, this.over(x, 26.0f, tabW, 14.0f));
             int k = i;
             if (on) {
-                this.round(x, 26.0f, tabW, 14.0f, 7.0f, 3528347, 8018664, 0.9f * a, 0.002f);
+                this.round(x, 26.0f, tabW, 14.0f, 7.0f, 3528347, 2794895, 0.9f * a, 0.002f);
             } else {
                 this.round(x, 26.0f, tabW, 14.0f, 7.0f, 0xFFFFFF, 0xFFFFFF, (0.05f + 0.08f * h) * a, 0.002f);
             }
@@ -413,7 +413,7 @@ final class WorldPanel {
             this.hits.add(new Hit(x, 26.0f, tabW, 14.0f, () -> this.go(k)));
         }
         String song = np.hasTrack() ? "\u266a  " + np.title + "  \u00b7  " + np.artist : "\u266a  " + WorldPanel.tr("nomusic");
-        this.text(WorldPanel.ellip(song, 160.0f, 0.62f), 206.0f, 208.0f, 0.62f, 0xDCCFFF, 0.75f * a);
+        this.text(WorldPanel.ellip(song, 160.0f, 0.62f), 206.0f, 208.0f, 0.62f, 12448472, 0.75f * a);
         float pa = a * WorldPanel.outCubic(WorldPanel.clamp((float)(System.currentTimeMillis() - this.pageTime) / 220.0f));
         switch (this.page) {
             case 0: {
@@ -450,7 +450,7 @@ final class WorldPanel {
             float h = this.hv("sky" + idx, this.over(x - 1.0f, y - 1.0f, tw + 2.0f, th + 12.0f));
             float lift = h * 1.2f;
             if (on) {
-                this.round(x - 2.0f, y - 2.0f - lift, tw + 4.0f, th + 4.0f, 6.0f, 3528347, 0xDCCFFF, a, 0.002f);
+                this.round(x - 2.0f, y - 2.0f - lift, tw + 4.0f, th + 4.0f, 6.0f, 3528347, 12448472, a, 0.002f);
             } else if (h > 0.01f) {
                 this.round(x - 1.5f, y - 1.5f - lift, tw + 3.0f, th + 3.0f, 5.5f, 0xFFFFFF, 0xFFFFFF, 0.5f * h * a, 0.002f);
             }
@@ -560,15 +560,15 @@ final class WorldPanel {
         this.text(WorldPanel.ellip(label, w - 34.0f, 0.68f), x + 7.0f, y + 5.0f, 0.68f, 0xFFFFFF, 0.92f * a);
         float tx = x + w - 25.0f;
         float ty = y + 4.0f;
-        this.round(tx, ty, 19.0f, 8.0f, 4.0f, on ? 3528347 : 0xFFFFFF, on ? 8018664 : 0xFFFFFF, (on ? 0.95f : 0.16f) * a, 0.003f);
-        this.ring(on ? tx + 15.0f : tx + 4.0f, ty + 4.0f, 0.0f, 3.2f, 0.0f, 360.0f, 0xFFFFFF, a, 15262966, a, 0.004f, 12);
+        this.round(tx, ty, 19.0f, 8.0f, 4.0f, on ? 3528347 : 0xFFFFFF, on ? 2794895 : 0xFFFFFF, (on ? 0.95f : 0.16f) * a, 0.003f);
+        this.ring(on ? tx + 15.0f : tx + 4.0f, ty + 4.0f, 0.0f, 3.2f, 0.0f, 360.0f, 0xFFFFFF, a, 14545896, a, 0.004f, 12);
         this.hits.add(new Hit(x, y, w, h, flip));
     }
 
     private void option(String id, float x, float y, float w, float h, String label, boolean on, Runnable run, float a) {
         float hh = this.hv(id, this.over(x, y, w, h));
         if (on) {
-            this.round(x, y, w, h, 6.0f, 3528347, 8018664, 0.88f * a, 0.002f);
+            this.round(x, y, w, h, 6.0f, 3528347, 2794895, 0.88f * a, 0.002f);
         } else {
             this.round(x, y, w, h, 6.0f, 0xFFFFFF, 0xFFFFFF, (0.035f + 0.06f * hh) * a, 0.002f);
         }
@@ -583,14 +583,14 @@ final class WorldPanel {
         float hh = this.hv(id, this.over(206.0f, y - 4.0f, 160.0f, 14.0f));
         this.text(label, 206.0f, y, 0.66f, 0xFFFFFF, (0.7f + 0.3f * hh) * a);
         this.round(tx, y + 1.5f, tw, 4.0f, 2.0f, 0xFFFFFF, 0xFFFFFF, (0.12f + 0.06f * hh) * a, 0.002f);
-        this.round(tx, y + 1.5f, Math.max(4.0f, tw * v), 4.0f, 2.0f, 0xDCCFFF, 3528347, a, 0.003f);
-        this.ring(tx + tw * v, y + 3.5f, 0.0f, 4.5f + hh, 0.0f, 360.0f, 0xFFFFFF, a, 15262966, a, 0.004f, 14);
+        this.round(tx, y + 1.5f, Math.max(4.0f, tw * v), 4.0f, 2.0f, 12448472, 3528347, a, 0.003f);
+        this.ring(tx + tw * v, y + 3.5f, 0.0f, 4.5f + hh, 0.0f, 360.0f, 0xFFFFFF, a, 14545896, a, 0.004f, 14);
         this.hits.add(new Hit(tx - 4.0f, y - 4.0f, tw + 8.0f, 14.0f, () -> set.accept(Float.valueOf(WorldPanel.clamp((this.hx - tx) / tw)))));
     }
 
     private void roundBtn(String id, float cx, float cy, float r, String icon, float a, Runnable run) {
         float hh = this.hv(id, this.over(cx - r, cy - r, 2.0f * r, 2.0f * r));
-        this.ring(cx, cy, 0.0f, r, 0.0f, 360.0f, Gfx.lerpColor(2762309, 3528347, hh), a, Gfx.lerpColor(1841460, 8018664, hh), a, 0.002f, 20);
+        this.ring(cx, cy, 0.0f, r, 0.0f, 360.0f, Gfx.lerpColor(1980974, 3528347, hh), a, Gfx.lerpColor(1321505, 2794895, hh), a, 0.002f, 20);
         float tw = (float)class_310.method_1551().field_1772.method_1727(icon) * 0.75f;
         this.text(icon, cx - tw / 2.0f, cy - 3.0f, 0.75f, 0xFFFFFF, a);
         this.hits.add(new Hit(cx - r, cy - r, 2.0f * r, 2.0f * r, run));
