@@ -56,8 +56,13 @@ jobs:
         run: |
           JAR_PATH=$(find . -name "lyrics-cord-*.jar" -path "*/build/libs/*" | head -1)
           if [ -z "$JAR_PATH" ]; then
-            echo "JAR not found!"
-            find . -name "*.jar" -path "*/build/*"
+            echo "::error::JAR not found! Searched for lyrics-cord-*.jar under */build/libs/*"
+            find . -name "*.jar" -path "*/build/*" | while IFS= read -r f; do
+              printf '::error::found instead: %s\n' "$f"
+            done
+            find . -path "*/build/libs" -maxdepth 4 | while IFS= read -r d; do
+              printf '::error::build/libs dir: %s (contents: %s)\n' "$d" "$(ls -1 "$d" 2>/dev/null | tr '\n' ',')"
+            done
             exit 1
           fi
           echo "jar_path=$JAR_PATH" >> $GITHUB_OUTPUT
