@@ -46,7 +46,7 @@ Choose the download that matches your Minecraft version.
 | 26.2 | [Spotify_Craft_26.2_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/2.0.0/Spotify_Craft_26.2_fixed.jar) | Java 25 or newer |
 | 26.3 | [Spotify_Craft_26.3_fixed.jar](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/download/2.0.0/Spotify_Craft_26.3_fixed.jar) | Java 25 or newer |
 
-**[Browse all releases](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/tag/2.0.0)**
+**[Browse all releases](https://github.com/CapitalistEnemy1/Spotify-Craft-/releases/tag/5.0.0)**
 
 ## Installation
 
